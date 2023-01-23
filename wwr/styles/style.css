@@ -38,7 +38,10 @@ p {
 
 #background {
     height: 725px;
-    background-image: url("images/hero.png");
+    background-color:rgba(239, 12, 220, 0.737);
+    display: block;
+    max-width: 400px;
+    margin: 30px auto;
 }
 body {
     background-image: url("images/hero.png");
@@ -46,23 +49,28 @@ body {
     max-width: 1600px;
     margin: 0 auto;
     text-align: center;
-    padding: 4em;
-    font-size: 18px;
+    padding: 0em;
+    font-size: 22px;
     text-align: left;
 }
-.book, .join{
+.book,.join{
          display: block;
          text-align: center;
          color: #121212;
          text-decoration: none;
+         padding: 15px 30px;
+         margin-top: 50px;
+         border-radius: 5px;
          
-    }
+    }   
 
 .card-img {
     display: block;
     max-width: 300px;
     text-align: center;
     margin: 0 auto;
+    border: 10px solid #d9c2a3;
+    
 
 }
 .icon{
@@ -70,8 +78,11 @@ body {
     max-width: 80px;
     text-align: right;
     margin: 0 auto;
-
 }
+main section img {
+    box-sizing: border-box;
+}
+
 .mountains {
     max-width: 200px;
     
@@ -79,18 +90,29 @@ body {
 .logo {
     text-align: center;
     width: 80px;
+    padding-top: 5px;
 }
 .home-title {
     text-align: center;
     font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
     font-size: 2em;
-    
+    margin-top: 10px;   
 }
+.msg {
+    padding: 35px;
+}
+.msg p{
+    text-align: center;
+    font-size: 1em; 
+    background-color: #6f7364;
+    line-height: 1.5em;
+    padding-bottom: 15px;    
+} 
+
 h2 {
     text-align: center;
+    margin:0;
 }
-
-
 header {
     background-color:rgba(41, 239, 12, 0.424);
 }
@@ -100,37 +122,35 @@ nav a:hover {
     color: #121212;
     font-size: 85em;   
 }
-
 .icon {
     width: 80px;
-}
-    
-  
+    padding-top: 10px;
+}  
 nav a {
     text-align: center;
-    color: #f80b0b;
+    color: #fcfbfb;
     text-decoration: none;
+    padding: 35px;
 } 
 footer{
     background-color:rgba(24, 59, 235, 0.903);
+    padding: 25px 50px;
+    margin-top: 200px;
 }
  
 footer a {
    
-    color: #1d24ee;
+    color: #01010ced;
     text-decoration: none;
     text-align: center;
 
 }
 footer p {
-    background-color:rgba(6, 45, 239, 0.424);
     font-size: 1.2em;
     text-align: left;
     
 }    
-   
-footer p a:hover {
-    background-color:rgba(6, 45, 239, 0.424);
-  
-    
-} 
+      
+footer .social img {
+    padding-top: 15px;
+}   
