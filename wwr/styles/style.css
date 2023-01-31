@@ -136,7 +136,7 @@ main section img {
     z-index: -1;
 }
 #hero-msg h4 {
-    color: white;
+    color: rgb(16, 90, 237);
     display: none;
 }
    
@@ -171,6 +171,7 @@ header {
     display: grid;
     grid-template-columns: 100px auto;
     background-color:rgba(41, 239, 12, 0.424);
+    padding-bottom: 15px; 
 }
 nav {
     display: flex;
