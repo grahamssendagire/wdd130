@@ -63,7 +63,8 @@ body {
 }
 main section img {
     box-sizing: border-box;
-}
+    width: 100%;
+}  
 .logo {
     text-align: center;
     width: 80px;
@@ -87,25 +88,30 @@ main section img {
     font-size: 25px;
     color: #6f7364;   
 }
-.msg {
-    
-    padding: 35px;
-    grid-column: 6/10;
-    grid-row: 6/7;
-    box-shadow: 5px 5px 10px #6f7364;
-}
-.msg p{
-    text-align: center;
-    font-size: 1em; 
-    background-color: #6f7364;
-    line-height: 1.5em;
-    padding-bottom: 15px;    
-} 
 
 h2 {
     text-align: center;
     margin:0;
+    padding: 15px;
 }
+h3{
+    text-align: center;
+    margin:0;
+    padding: 15px;
+}
+
+.container {
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+   }
+   
+   img {
+     max-width: 100%;
+     max-height:100%;
+     padding: 15px;
+   }
 header {
     display: grid;
     grid-template-columns: 100px auto;
