@@ -152,7 +152,7 @@ footer{
     display: flex;
     justify-content: space-around;
     align-items: center;
- 
+}
 footer a {
     color: #01010ced;
     text-decoration: none;

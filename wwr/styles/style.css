@@ -2,7 +2,9 @@
 /* if you are using any Google fonts change the font names below to your fonts. 
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a & */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&family=Rock+Salt&display=swap');#background {
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&family=Rock+Salt&display=swap');
+
+#background {
     height: 725px;
 }
 :root {
@@ -45,7 +47,7 @@ p {
     margin: 0 auto; 
 }
 body {
-    background-image: url("images/hero.png");
+    
     background-color: #fffefff5; 
     max-width: 1600px;
     margin: 0 auto;
@@ -222,4 +224,4 @@ footer p {
       
 footer .social img {
     padding-top: 15px;
-}   
+}  
